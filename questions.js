@@ -1,4 +1,4 @@
-export const Question = [
+export const Questions = [
   {
       question: "Quelle est la signification de l'acronyme PIB ?",
       answers: [
@@ -106,7 +106,7 @@ export const Question = [
 
 
 
-export const Questions = [
+export const Question = [
     {
       question: "Quelle est la syntaxe correcte pour déclarer une variable en JavaScript ?",
       answers: [
