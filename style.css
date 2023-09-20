@@ -148,6 +148,13 @@ button:focus-visible {
     font-size: 18px;
     color: black;
   }
+  #start {
+  background-color: rgb(56, 56, 182);
+  width: 250px;
+  color: white;
+}
+#app{
+	color: black;
 }
 
 /* Styles pour les écrans de taille moyenne (par exemple, tablettes) */
