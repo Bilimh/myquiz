@@ -142,11 +142,24 @@ button:focus-visible {
 }
 
 
-@media screen and (max-width: 768px) {
-  /* Styles pour les écrans ayant une largeur maximale de 768 pixels */
-  body {
-    font-size: 16px;
+/* Styles pour les écrans de petite taille (par exemple, smartphones) */
+@media (max-width: 767px) {
+  label {
+    font-size: 18px;
   }
-  /* Autres styles de mise en page adaptative */
+}
+
+/* Styles pour les écrans de taille moyenne (par exemple, tablettes) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  label {
+    font-size: 24px;
+  }
+}
+
+/* Styles pour les écrans de grande taille (par exemple, ordinateurs de bureau) */
+@media (min-width: 1024px) {
+  label {
+    font-size: 32px;
+  }
 }
 
