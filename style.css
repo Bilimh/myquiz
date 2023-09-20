@@ -115,20 +115,20 @@ button {
 .startSubmit {
   background-color: rgb(56, 56, 182);
   width: 500px;
-  color: white;
+  color: black;
 }
 
 button:hover {
   border-color: green;
   background: blue;
-  color: white;
+  color: black;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-/*@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -139,4 +139,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}*/
+}
