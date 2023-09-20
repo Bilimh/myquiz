@@ -146,6 +146,7 @@ button:focus-visible {
 @media (max-width: 767px) {
   label {
     font-size: 18px;
+    color: black;
   }
 }
 
