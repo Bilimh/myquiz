@@ -1,6 +1,8 @@
 import "./style.css"
 
 import {Questions} from './questions'
+import confetti from "canvas-confetti"
+
 
 
 
@@ -31,7 +33,7 @@ function startQuestion (index) {
          let p =document.createElement('p')
          app.appendChild(p)
          p.innerText = `la réponse de la question '${Questions[i].question}' est '${Questions[i].correct}'`
-         
+         confetti()
       }
       return ;//On Sort de la fonction pour éviter de créer des éléments inutiles
    }
