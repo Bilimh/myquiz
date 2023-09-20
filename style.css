@@ -156,6 +156,14 @@ button:focus-visible {
 #app{
 	color: black;
 }
+.startSubmit {
+  background-color: rgb(56, 56, 182);
+  width: 300px;
+  color: black;
+}
+
+}
+
 
 /* Styles pour les écrans de taille moyenne (par exemple, tablettes) */
 @media (min-width: 768px) and (max-width: 1023px) {
